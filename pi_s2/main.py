@@ -19,7 +19,7 @@ while True:
     if atraccion not in [1, 2, 3]:
         print("Error, no es una atracción válida.")
         continue
-    if not puede_entrar(edad, atraccion):
+    if not puede_subir(edad, atraccion):
         if edad < 6:
             print("Lo siento, solo puede ingresar al Carrusel.")
         elif edad <= 12:
