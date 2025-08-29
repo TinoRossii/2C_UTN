@@ -27,10 +27,10 @@ def registrar_visita():
     atraccion = int(input("¿A cuál de las siguientes atracciones le gustaría entrar? (1-Montaña rusa ; 2-Casa del terror ; 3-Carrusel) "))
     return nombre, edad
 
-def mostrar_resumen(nombre, edad, contador_montania, contador_terror, contador_carrusel):
+def mostrar_resumen(nombre, edad, contador_montaña, contador_terror, contador_carrusel):
     print(f"Gracias por su visita {nombre}")
     print(f"Nombre: ",nombre)
     print(f"Edad: ", edad)
     print(f"Cantidad de veces subido al carrusel: ", contador_carrusel)
     print(f"Cantidad de veces que entró a la Casa del Terror: ", contador_terror)
-    print(f"Cantidad de veces que subió a la Montaña Rusa: ", contador_montania)
+    print(f"Cantidad de veces que subió a la Montaña Rusa: ", contador_montaña)
