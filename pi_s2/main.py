@@ -52,7 +52,7 @@ if contador_atracciones >= 3:
 
 mostrar_resumen(nombre, edad, contador_montaña, contador_terror, contador_carrusel)
 print(f"Total a pagar: {entrada}")
-if contador_montania == 0:
+if contador_montaña == 0:
     print("No subió a la Montaña rusa ")        
 if contador_terror == 0:
     print("No entró a la Casa del Terror ")       
