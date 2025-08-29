@@ -1,5 +1,5 @@
 def mostrar_atracciones():
-    print(f"Nuestras atracciones y sus precios son: Montaña rusa= 1500, Casa del terror = 1200, Carrusel = 800")
+    print(f"Nuestras atracciones y sus precios son: Montaña rusa = 1500, Casa del terror = 1200, Carrusel = 800")
 
 def puede_subir(edad, atraccion):
     if edad < 6:
