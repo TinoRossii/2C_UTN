@@ -9,7 +9,7 @@ edad = input("Ingrese su edad: ")
 mostrar_atracciones()
 entrada = 0
 atraccion_elegida = ""
-contador_montania = 0
+contador_montaña = 0
 contador_terror = 0
 contador_carrusel = 0 
 contador_atracciones = 0
@@ -30,7 +30,7 @@ while True:
     entrada += precio
     if atraccion == 1:
         atraccion_elegida += "Montaña rusa "
-        contador_montania += 1
+        contador_montaña += 1
         contador_atracciones += 1
     elif atraccion == 2:
         atraccion_elegida += "Casa del terror "
@@ -50,7 +50,7 @@ if contador_atracciones >= 3:
     print("¡Se aplica un descuento del 10% por subir a 3 o más atracciones!")
     entrada *= 0.90
 
-mostrar_resumen(nombre, edad, contador_montania, contador_terror, contador_carrusel)
+mostrar_resumen(nombre, edad, contador_montaña, contador_terror, contador_carrusel)
 print(f"Total a pagar: {entrada}")
 if contador_montania == 0:
     print("No subió a la Montaña rusa ")        
