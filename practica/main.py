@@ -1,4 +1,4 @@
-import funciones
+import practica.funciones as funciones
 
 print("Bienvenidos al programa")
 nombre = input("Ingrese su nombre: ")
